@@ -1,0 +1,107 @@
+ .nav li {
+    margin-top: 20px;
+    font-size: large 
+    
+}
+h2{
+    margin-top: 15px
+}
+
+button{
+    margin-top: 15px;
+    width: 150px;
+}
+
+.image{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://bootstrapmade.com/demo/templates/Sailor/assets/img/slide/slide-2.jpg); 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 800;
+    align-items: center;
+}
+.image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.content-wrapper{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.left{
+    margin-top: 30px;
+}
+.reft{
+    font-size: medium;
+    margin-top: 30px;
+}
+.reft  p{
+    font-style: italic
+}
+.about{
+   
+    position: relative;
+
+}
+#partners{
+    background-color: rgb(235, 231, 231);
+    height: 100px;
+}
+.img{
+    position: relative;
+}
+.img img{
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    filter: grayscale(90);
+    transition: .4s;
+}
+.img img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+.about ul{
+    position: absolute;
+    width: 185px;
+    top: 80px;
+    visibility: hidden;
+    padding: 10px;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .2s linear;
+
+}
+.about ul li{
+    margin-top: 10px;
+}
+.about:hover ul{
+    top: 35px;
+    visibility: visible;
+}
+.about:hover .about-link{
+    color: darkred !important;
+}
+.about:hover i{
+    transform: rotate(180deg)
+}
+.first{
+    margin-top: 40px;
+}
+.first a{
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(87, 85, 85)
+    
+}
+.services{
+    background-color: rgb(199, 198, 198);
+}
